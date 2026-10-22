@@ -5,7 +5,7 @@
 
 ## About
 
-I build small, tested tools for fixed income, mortgage markets and financial planning. Each one is written in plain Python and uses real public data wherever possible.
+Hey, I'm Hari. I'm a financial analyst who loves technology, and lately I've been learning as much as I can about AI and Python. Here are some of the projects I've been building in my free time.
 
 ## Tech Stack
 
@@ -13,16 +13,76 @@ I build small, tested tools for fixed income, mortgage markets and financial pla
 
 ## Projects
 
-| | Project | Tests |
-|---|---|---|
-| <a href="https://github.com/builtby-hari/MBSCashFlowModel"><img src="https://github.com/builtby-hari/MBSCashFlowModel/raw/main/docs/convexity_bars.svg" width="260" alt="MBS Cash Flow Model Chart"></a> | **[MBS Cash Flow Model](https://github.com/builtby-hari/MBSCashFlowModel)**<br>Projects agency MBS cash flows with PSA and rate-linked prepayments, then measures WAL, effective duration and negative convexity. | 43 |
-| <a href="https://github.com/builtby-hari/BondRateShockAnalyzer"><img src="https://github.com/builtby-hari/BondRateShockAnalyzer/raw/main/docs/pnl_vs_shock.svg" width="260" alt="Bond Rate Shock Analyzer Chart"></a> | **[Bond Rate Shock Analyzer](https://github.com/builtby-hari/BondRateShockAnalyzer)**<br>Measures portfolio P&L under parallel and key-rate shocks, compares duration and convexity estimates, and computes DV01 off a Treasury curve. | 48 |
-| <a href="https://github.com/builtby-hari/MortgageDelinquencyDrivers"><img src="https://github.com/builtby-hari/MortgageDelinquencyDrivers/raw/main/docs/delinquency_vs_unemployment.svg" width="260" alt="Mortgage Delinquency Drivers Chart"></a> | **[Mortgage Delinquency Drivers](https://github.com/builtby-hari/MortgageDelinquencyDrivers)**<br>Uses OLS regressions with Newey-West standard errors to test what drives the mortgage delinquency rate. | 20 |
-| <a href="https://github.com/builtby-hari/MortgageMarketDashboard"><img src="https://github.com/builtby-hari/MortgageMarketDashboard/raw/main/docs/spread.svg" width="260" alt="Mortgage Market Dashboard Chart"></a> | **[Mortgage Market Dashboard](https://github.com/builtby-hari/MortgageMarketDashboard)**<br>Tracks mortgage rates against Treasuries, the mortgage-Treasury spread and the 10Y-2Y curve, using FRED data. | 45 |
-| <a href="https://github.com/builtby-hari/CoveredCallScreener"><img src="https://github.com/builtby-hari/CoveredCallScreener/raw/main/docs/yield_vs_delta.svg" width="260" alt="Covered Call Screener Chart"></a> | **[Covered Call Screener](https://github.com/builtby-hari/CoveredCallScreener)**<br>Ranks covered-call candidates from an option chain and flags the risks (synthetic data). | 50 |
-| <a href="https://github.com/builtby-hari/BudgetVarianceAnalyzer"><img src="https://github.com/builtby-hari/BudgetVarianceAnalyzer/raw/main/docs/bridge.svg" width="260" alt="Budget Variance Analyzer Chart"></a> | **[Budget Variance Analyzer](https://github.com/builtby-hari/BudgetVarianceAnalyzer)**<br>Compares budget to actual results, flags material variances and builds an operating income bridge (synthetic data). | 63 |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/MBSCashFlowModel">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/MBSCashFlowModel-dark.svg">
+  <img alt="MBS Cash Flow Model" src="docs/cards/MBSCashFlowModel.svg" width="100%">
+</picture>
+</a>
+<br>Projects agency MBS cash flows with PSA and rate-linked prepayments, then measures WAL, effective duration, OAS and negative convexity.
+<br><sub><b>Highlights:</b> Monte Carlo OAS · Tranche waterfall · Checked against SIFMA examples</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/BondRateShockAnalyzer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/BondRateShockAnalyzer-dark.svg">
+  <img alt="Bond Rate Shock Analyzer" src="docs/cards/BondRateShockAnalyzer.svg" width="100%">
+</picture>
+</a>
+<br>Measures portfolio P&L under parallel and key-rate shocks, compares duration and convexity estimates, and computes DV01 off a Treasury curve.
+<br><sub><b>Highlights:</b> Key-rate DV01 · Duration vs convexity · Treasury par curve</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/MortgageDelinquencyDrivers">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/MortgageDelinquencyDrivers-dark.svg">
+  <img alt="Mortgage Delinquency Drivers" src="docs/cards/MortgageDelinquencyDrivers.svg" width="100%">
+</picture>
+</a>
+<br>Uses OLS regressions with Newey-West standard errors to test what drives the mortgage delinquency rate.
+<br><sub><b>Highlights:</b> FRED data · Regression diagnostics · Fed stress test scenarios</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/MortgageMarketDashboard">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/MortgageMarketDashboard-dark.svg">
+  <img alt="Mortgage Market Dashboard" src="docs/cards/MortgageMarketDashboard.svg" width="100%">
+</picture>
+</a>
+<br>Tracks mortgage rates against Treasuries, the mortgage-Treasury spread and the yield curve, using FRED data.
+<br><sub><b>Highlights:</b> Spread z-score · 10Y-2Y and 10Y-3M curves · One-page Morning Note</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/CoveredCallScreener">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/CoveredCallScreener-dark.svg">
+  <img alt="Covered Call Screener" src="docs/cards/CoveredCallScreener.svg" width="100%">
+</picture>
+</a>
+<br>Ranks covered-call candidates from an option chain and flags the risks (synthetic data).
+<br><sub><b>Highlights:</b> Assignment probability · Earnings exclusion · Roll check</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/builtby-hari/BudgetVarianceAnalyzer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/cards/BudgetVarianceAnalyzer-dark.svg">
+  <img alt="Budget Variance Analyzer" src="docs/cards/BudgetVarianceAnalyzer.svg" width="100%">
+</picture>
+</a>
+<br>Compares budget to actual results, flags material variances and builds an operating income bridge (synthetic data).
+<br><sub><b>Highlights:</b> Rolling forecast · Forecast accuracy · Price, volume and mix</sub>
+</td>
+</tr>
+</table>
 
-Every project uses only the Python standard library, runs offline and ships with tests you can run locally.
+Every project runs on the Python standard library (matplotlib is optional), works offline from sample or cached data, and ships with tests you can run locally.
 
 ## Contact
 
