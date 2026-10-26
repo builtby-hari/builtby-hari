@@ -4,7 +4,7 @@
 
 ## About me
 
-<p>Hi, I'm Hari. I'm a financial analyst who's curious about pretty much everything. Computers run money, markets and most of how the world works, and AI means one person can now build what used to take a team.</p><p>At work I saw how much of finance fits that, so I'm learning how to use and build with Python and SQL. These are the side projects I have built along the way.</p>
+<p>I'm a financial analyst who's curious about pretty much everything. Computers run money, markets and most of how the world works, and AI means one person can now build what used to take a team.</p><p>At work I saw how much of finance fits that, so I'm learning how to use and build with Python and SQL. These are the side projects I have built along the way.</p>
 
 ### Lately
 
