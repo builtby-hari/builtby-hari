@@ -33,24 +33,12 @@
 
 <table>
 <tr>
-<td width="58%" valign="middle"><a href="https://github.com/builtby-hari/MBSCashFlowModel"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/MBSCashFlowModel-dark.svg"><img alt="MBS Cash Flow Model" src="docs/cards/MBSCashFlowModel.svg" width="100%"></picture></a></td>
-<td valign="middle"><a href="https://github.com/builtby-hari/MBSCashFlowModel"><b>MBS Cash Flow Model</b></a><br><br>Projects agency MBS cash flows with PSA and rate-linked prepayments, then measures WAL, effective duration, OAS and negative convexity.<br><br><picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/monte-carlo-oas-dark.svg"><img alt="Monte Carlo OAS" src="docs/chips/monte-carlo-oas.svg" height="26"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/tranche-waterfall-dark.svg"><img alt="Tranche waterfall" src="docs/chips/tranche-waterfall.svg" height="26"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/checked-against-sifma-examples-dark.svg"><img alt="Checked against SIFMA examples" src="docs/chips/checked-against-sifma-examples.svg" height="26"></picture></td>
+<td width="58%" valign="middle"><a href="https://github.com/builtby-hari/RatesMortgageRiskLab"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/RatesMortgageRiskLab-dark.svg"><img alt="Rates and Mortgage Risk Lab: convexity by mortgage rate" src="docs/cards/RatesMortgageRiskLab.svg" width="100%"></picture></a></td>
+<td valign="middle"><a href="https://github.com/builtby-hari/RatesMortgageRiskLab"><b>Rates &amp; Mortgage Risk Lab</b></a><br><br>When rates move, a bank feels it in four places: what borrowers pay, how many fall behind, what its mortgage bonds are worth, and what its balance sheet is worth. I built a model for each one in Python, on real FRED data where it exists.<br><br><picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/monte-carlo-oas-dark.svg"><img alt="Monte Carlo OAS" src="docs/chips/monte-carlo-oas.svg" height="26"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/tranche-waterfall-dark.svg"><img alt="Tranche waterfall" src="docs/chips/tranche-waterfall.svg" height="26"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="docs/chips/checked-against-sifma-examples-dark.svg"><img alt="Checked against SIFMA examples" src="docs/chips/checked-against-sifma-examples.svg" height="26"></picture></td>
 </tr>
 </table>
 
 <table>
-<tr>
-<td width="32%" valign="middle"><a href="https://github.com/builtby-hari/BondRateShockAnalyzer"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/BondRateShockAnalyzer-dark.svg"><img alt="Bond Rate Shock Analyzer" src="docs/cards/BondRateShockAnalyzer.svg" width="100%"></picture></a></td>
-<td valign="middle"><a href="https://github.com/builtby-hari/BondRateShockAnalyzer"><b>Bond Rate Shock Analyzer</b></a><br>Measures portfolio P&amp;L under parallel and key-rate shocks, compares duration and convexity estimates, and computes DV01 off a Treasury curve.</td>
-</tr>
-<tr>
-<td width="32%" valign="middle"><a href="https://github.com/builtby-hari/MortgageDelinquencyDrivers"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/MortgageDelinquencyDrivers-dark.svg"><img alt="Mortgage Delinquency Drivers" src="docs/cards/MortgageDelinquencyDrivers.svg" width="100%"></picture></a></td>
-<td valign="middle"><a href="https://github.com/builtby-hari/MortgageDelinquencyDrivers"><b>Mortgage Delinquency Drivers</b></a><br>Uses OLS regressions with Newey-West standard errors to test what drives the mortgage delinquency rate.</td>
-</tr>
-<tr>
-<td width="32%" valign="middle"><a href="https://github.com/builtby-hari/MortgageMarketDashboard"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/MortgageMarketDashboard-dark.svg"><img alt="Mortgage Market Dashboard" src="docs/cards/MortgageMarketDashboard.svg" width="100%"></picture></a></td>
-<td valign="middle"><a href="https://github.com/builtby-hari/MortgageMarketDashboard"><b>Mortgage Market Dashboard</b></a><br>Tracks mortgage rates against Treasuries, the mortgage-Treasury spread and the yield curve, using FRED data.</td>
-</tr>
 <tr>
 <td width="32%" valign="middle"><a href="https://github.com/builtby-hari/CoveredCallScreener"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/cards/CoveredCallScreener-dark.svg"><img alt="Covered Call Screener" src="docs/cards/CoveredCallScreener.svg" width="100%"></picture></a></td>
 <td valign="middle"><a href="https://github.com/builtby-hari/CoveredCallScreener"><b>Covered Call Screener</b></a><br>Ranks covered-call candidates from an option chain and flags the risks (synthetic data).</td>
